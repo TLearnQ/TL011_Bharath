@@ -1,0 +1,61 @@
+{
+  "title": "LMS_Reporting",
+  "endpoint_count": 5,
+  "endpoints": [
+    {
+      "path": "/registrations",
+      "method": "POST",
+      "summary": null,
+      "auth": {
+        "BearerAuth": {
+          "type": "http",
+          "scheme": "bearer"
+        }
+      }
+    },
+    {
+      "path": "/registrations/{registrationId}",
+      "method": "PUT",
+      "summary": null,
+      "auth": {
+        "BearerAuth": {
+          "type": "http",
+          "scheme": "bearer"
+        }
+      }
+    },
+    {
+      "path": "/registrations/{registrationId}",
+      "method": "DELETE",
+      "summary": null,
+      "auth": {
+        "BearerAuth": {
+          "type": "http",
+          "scheme": "bearer"
+        }
+      }
+    },
+    {
+      "path": "/locationreports",
+      "method": "POST",
+      "summary": "submit a MC UE location report",
+      "auth": {
+        "BearerAuth": {
+          "type": "http",
+          "scheme": "bearer"
+        }
+      }
+    },
+    {
+      "path": "/configurations",
+      "method": "GET",
+      "summary": "request to download the location configuration",
+      "auth": {
+        "BearerAuth": {
+          "type": "http",
+          "scheme": "bearer"
+        }
+      }
+    }
+  ]
+}
